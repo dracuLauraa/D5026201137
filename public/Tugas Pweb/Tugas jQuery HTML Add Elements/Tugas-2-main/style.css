@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'fantasy';
+  box-sizing: border-box;
+}
+
+* {
+  cursor: url(https://cur.cursors-4u.net/anime/ani-9/ani879.ani), url(https://cur.cursors-4u.net/anime/ani-9/ani879.png), auto !important;
+}
+
+body{
+  background-image: linear-gradient(120deg,#f5b8e3,#b3d9ee);
+  min-height: 100vh;
+}
+
+h1{
+  font-size: 60px;
+  color: rgb(146, 21, 136);
+}
+
+h3{
+  color: rgb(146, 21, 136);
+}
+
+.container{
+  max-width: 800px;
+  margin: auto;
+  padding: 10px;
+}
+
+.txtb{
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid rgb(255, 255, 255);
+  background: none;
+  padding: 10px;
+  outline: none;
+  font-size: 18px;
+}
+
+h3{
+  margin: 10px 0;
+}
+
+.task{
+  width: 100%;
+  background: rgba(255,255,255,0.5);
+  padding: 18px;
+  margin: 6px 0;
+  overflow: hidden;
+}
+
+.task i{
+  float: right;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.comp .task{
+  background: rgba(167, 65, 158, 0.5);
+  color: rgb(234, 247, 255);
+}

@@ -1,0 +1,40 @@
+.card {
+    background-color: #c1f3f5;
+}
+
+.container {
+    padding: 2% 5%;
+}
+
+@media (min-width:900px) {
+    .container {
+        padding: 5% 25%;
+    }
+}
+
+label {
+    color: #380a5e;
+}
+
+.card-header {
+    font-size: 2rem;
+    background: #decded;
+}
+
+.btn-primary {
+    background-color: #c2a1dd;
+    border: none !important;
+    color: #303030;
+}
+
+.btn-primary:focus {
+     background-color: #313031;
+    border: none !important;
+    color: #2b2929;
+}
+
+.btn-primary:hover {
+    background-color: transparent;
+    color: #e9dbf5;
+    border: 2px solid #ae96c2 !important;
+}
