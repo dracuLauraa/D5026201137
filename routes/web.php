@@ -19,7 +19,16 @@ Route::get('tugas4', function () {
     return view('tugas4js') ;
 });
 
-Route::get('ets2021',"ViewController@showETS") ;
+Route::get('tugas5', function () {
+    return view('tugas5js') ;
+});
 
-Route::get('greetings',"ViewController@showGreetings") ;
-Route::post('sayhi',"ViewController@sayHi") ;
+Route::get('praktikum2', function () {
+    return view('praktikum2js') ;
+});
+
+Route::get('ets',"ViewController@ETS") ;
+
+Route::get('php',"ViewController@PHP") ;
+
+

@@ -1,6 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+      <style>
+          .card {
+    background-color: #c1f3f5 !important;
+}
+
+.container {
+    padding: 2% 5% !important;
+}
+
+@media (min-width:900px) {
+    .container {
+        padding: 5% 25% !important;
+    }
+}
+
+label {
+    color: #380a5e !important;
+}
+
+.card-header {
+    font-size: 2rem !important;
+    background: #decded !important;
+}
+
+.btn-primary {
+    background-color: #c2a1dd !important;
+    border: none !important;
+    color: #303030 !important;
+}
+
+.btn-primary:focus {
+     background-color: #313031 !important;
+    border: none !important;
+    color: #2b2929 !important;
+}
+
+.btn-primary:hover {
+    background-color: transparent !important;
+    color: #502179 !important;
+    border: 2px solid #ae96c2 !important;
+}
+          </style>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -12,7 +54,6 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="css/style.css" />
 
     <title>Praktikum Form Validation</title>
   </head>
@@ -53,7 +94,7 @@
     <label  class="form-label">Zip Code</label>
     <input type="text" class="form-control" id="zip" name="zip" >
   </div>
- 
+
   <div class="col-12">
     <button type="submit" class="my-4 form-control btn btn-primary">Check Form</button>
   </div>
