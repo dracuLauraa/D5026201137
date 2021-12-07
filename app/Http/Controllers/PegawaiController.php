@@ -7,15 +7,15 @@ use Illuminate\Support\Facades\DB;
 
 class PegawaiController extends Controller
 {
-
+    
     public function index()
     {
     	// mengambil data dari table pegawai
     	$pegawai = DB::table('pegawai')->get();
-
+ 
     	// mengirim data pegawai ke view index
     	return view('pegawai.index',['pegawai' => $pegawai]);
-
+ 
     }
 
     // method untuk menampilkan view form tambah pegawai
@@ -67,7 +67,7 @@ class PegawaiController extends Controller
     {
         // menghapus data pegawai berdasarkan id yang dipilih
         DB::table('pegawai')->where('pegawai_id',$id)->delete();
-
+            
         // alihkan halaman ke halaman pegawai
         return redirect('/pegawai');
     }
