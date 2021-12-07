@@ -22,13 +22,13 @@
 		</tr>
 		@foreach($absen as $p)
 		<tr>
-			<td>{{ $p->absen_id_pegawai }}</td>
-			<td>{{ $p->absen_tanggal }}</td>
-            <td>{{ $p->absen_status }}</td>
+			<td>{{ $p->IDPegawai }}</td>
+			<td>{{ $p->Tanggal }}</td>
+            <td>{{ $p->Status }}</td>
 			<td>
-				<a href="/absen/edit/{{ $p->absen_id }}">Edit</a>
+				<a href="/absen/edit/{{ $p->ID }}">Edit</a>
 				|
-				<a href="/absen/hapus/{{ $p->absen_id }}">Hapus</a>
+				<a href="/absen/hapus/{{ $p->ID }}">Hapus</a>
 			</td>
 		</tr>
 		@endforeach

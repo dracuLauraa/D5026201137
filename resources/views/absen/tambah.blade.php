@@ -15,9 +15,9 @@
 
 	<form action="/absen/store" method="post">
 		{{ csrf_field() }}
-		IDPegawai <input type="number" name="idpegawai" required="required"> <br/>
-		Tanggal <input type="date" name="tanggal" required="required"> <br/>
-		Status <input type="text" name="status" required="required"> <br/>
+		IDPegawai <input type="number" name="IDPegawai" required="required"> <br/>
+		Tanggal <input type="date" name="Tanggal" required="required"> <br/>
+		Status <input type="text" name="Status" required="required"> <br/>
 		<input type="submit" value="Simpan Data">
 	</form>
 

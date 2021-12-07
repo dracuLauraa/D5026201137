@@ -16,10 +16,10 @@
 	@foreach($absen as $p)
 	<form action="/absen/update" method="post">
 		{{ csrf_field() }}
-        <input type="hidden" name="id" value="{{ $p->absen_id }}"> <br/>
-		IDPegawai <input type="number" required="required" name="idpegawai" value="{{ $p->absen_id_pegawai }}"> <br/>
-		Tanggal <input type="date" required="required" name="tanggal" value="{{ $p->absen_tanggal }}"> <br/>
-		Status <input type="text" required="required" name="status" value="{{ $p->absen_status }}"> <br/>
+        <input type="hidden" name="id" value="{{ $p->ID }}"> <br/>
+		IDPegawai <input type="number" required="required" name="idpegawai" value="{{ $p->IDPegawai }}"> <br/>
+		Tanggal <input type="date" required="required" name="tanggal" value="{{ $p->Tanggal }}"> <br/>
+		Status <input type="text" required="required" name="status" value="{{ $p->Status }}"> <br/>
 		<input type="submit" value="Simpan Data">
 	</form>
 	@endforeach
