@@ -31,4 +31,6 @@
 		@endforeach
 	</table>
 
+	{{ $absen->links()  }}
+
 @endsection

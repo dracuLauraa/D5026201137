@@ -45,3 +45,11 @@ Route::get('/absen/edit/{id}','AbsenController@edit');
 Route::post('/absen/update','AbsenController@update');
 Route::get('/absen/hapus/{id}','AbsenController@hapus');
 
+Route::get('/pensil','PensilController@index');
+Route::get('/pensil/tambah','PensilController@tambah');
+Route::post('/pensil/store','PensilController@store');
+Route::get('/pensil/edit/{id}','PensilController@edit');
+Route::post('/pensil/update','PensilController@update');
+Route::get('/pensil/hapus/{id}','PensilController@hapus');
+Route::get('/pensil/cari','PensilController@cari');
+Route::get('/pensil/detail/{id}','PensilController@view');

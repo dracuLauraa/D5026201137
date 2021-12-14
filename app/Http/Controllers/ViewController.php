@@ -8,12 +8,10 @@ class ViewController extends Controller
 {
     function ETS()
     {
-        //nanti disini ada sesuatu
         return view('ets');
     }
     function PHP()
     {
-        //nanti disini ada sesuatu
         return view('php');
     }
 }
