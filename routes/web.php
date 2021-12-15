@@ -53,3 +53,5 @@ Route::post('/pensil/update','PensilController@update');
 Route::get('/pensil/hapus/{id}','PensilController@hapus');
 Route::get('/pensil/cari','PensilController@cari');
 Route::get('/pensil/detail/{id}','PensilController@view');
+
+Route::get('/eas','EasController@index');

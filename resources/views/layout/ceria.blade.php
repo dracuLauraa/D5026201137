@@ -92,6 +92,12 @@
       <span>Praktikum</span>
     </a>
   </li>
+  <li class="nav-item">
+    <a class="nav-link " href="/eas">
+      <i class="bi bi-grid"></i>
+      <span>EAS</span>
+    </a>
+  </li>
 
  
     </ul>
